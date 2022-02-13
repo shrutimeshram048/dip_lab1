@@ -36,7 +36,9 @@ binary_image=figure,imshow(newimage1)
 size(newimage1)
 
 %task3
-image = newimage+newimage;
+I1 = uint8(newimage);
+I2 = uint8(newimage1);
+image = I1 + I2;
 add_image=figure,imshow(image)
 size(image)
 
