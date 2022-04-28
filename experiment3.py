@@ -2,7 +2,7 @@ from unittest import result
 import cv2
 import numpy as np
 
-org = cv2.imread('/Users/mayurdongre/Downloads/Rohit.jpeg')
+org = cv2.imread('/Users/shruti/Downloads/Rohit.jpeg')
 
 imageHeight = len(org)
 imageWidth = len(org[0])
